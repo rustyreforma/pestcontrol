@@ -1,0 +1,95 @@
+.c-banner {
+    padding: 150px 0 130px;
+    background-size: cover;
+    background-position: top right;
+    margin-top: -95px;
+    position: relative;
+    @media only screen and (min-width: 992px) {
+        margin-top: -142px;
+        padding: 200px 0 130px;
+    }
+    @media only screen and (min-width: 1200px) {
+        margin-top: -158px;
+        padding: 250px 0 180px;
+    }
+    @media only screen and (min-width: 1350px) {
+        margin-top: -171px;
+        padding: 301px 0 231px;
+    }
+
+
+    &__limitwidth {
+        max-width: 330px;
+        @media only screen and (min-width: 768px) {
+            max-width: 380px;
+        }
+        @media only screen and (min-width: 992px) {
+            max-width: 450px;
+        }
+        @media only screen and (min-width: 1350px) {
+            max-width: 500px;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 100%;
+        margin-bottom: 24px;
+        color: #fff;
+        @media only screen and (min-width: 768px) {
+            font-size: 40px;
+        }
+        @media only screen and (min-width: 992px) {
+            font-size: 70px;
+        }
+        @media only screen and (min-width: 1350px) {
+            font-size: 90px;
+        }
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 36px;
+        color: #fff;
+        @media only screen and (min-width: 768px) {
+            font-size: 22px;
+        }
+        @media only screen and (min-width: 992px) {
+            font-size: 24px;
+        }
+        @media only screen and (min-width: 1350px) {
+            font-size: 28px;
+        }
+    }
+
+    .chat-bubble {
+        position: absolute;
+        bottom: -25px;
+        right: 52px;
+
+        @media only screen and (min-width: 992px) {
+            bottom: -30px;
+        }
+        @media only screen and (min-width: 1200px) {
+            bottom: -35px;
+        }
+        @media only screen and (min-width: 1350px) {
+            bottom: -50px;
+        }
+
+        img {
+            width: 50px;
+            @media only screen and (min-width: 992px) {
+                width: 60px;
+            }
+            @media only screen and (min-width: 1200px) {
+                width: 75px;
+            }
+            @media only screen and (min-width: 1350px) {
+                width: 95px;
+            }
+        }
+    }
+}

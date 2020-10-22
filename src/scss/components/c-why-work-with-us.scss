@@ -1,0 +1,19 @@
+.c-why-work-with-us {
+    overflow: hidden;
+    h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 100%;
+        color: #121212;
+        font-weight: bold;
+        margin-bottom: 67px;
+        padding: 0 15px;
+        @media only screen and (min-width: 992px) {
+            padding: 0;
+        }
+        @media only screen and (min-width: 992px) {
+            margin-bottom: 0;
+            font-size: 70px;
+        }
+    }
+}

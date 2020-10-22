@@ -1,0 +1,50 @@
+.c-two-columns {
+    margin-bottom: 100px;
+    .wrapper {
+        max-width: 310px;
+        margin: 0 auto 60px;
+        @media only screen and (min-width: 992px) {
+            margin: 0 auto;
+            max-width: 530px;
+            padding: 0 30px;
+        }
+        @media only screen and (min-width: 1350px) {
+            padding: 0;
+        }
+    }
+     h4 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 150%;
+        color: #111111;
+        margin-bottom: 34px;
+        @media only screen and (min-width: 992px) {
+            letter-spacing: -2px;
+            font-size: 40px;
+            line-height: 100%;
+        }
+        @media only screen and (min-width: 1350px) {
+            letter-spacing: -4px;
+            font-size: 60px;
+        }
+     }
+     p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        letter-spacing: -1px;
+        line-height: 140%;
+        color: #121212;
+        margin-bottom: 16px;
+        @media only screen and (min-width: 992px) {
+            font-size: 20px;
+        }
+        @media only screen and (min-width: 1350px) {
+            font-size: 24px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+     }
+}

@@ -1,0 +1,82 @@
+.c-reach-us {
+    background-color: #1A1A1A;
+    .row {
+        > div {
+            padding: 0;
+            position: relative;
+        }
+    }
+    &__wrapper {
+        position: relative;
+        height: 100%;
+        min-height: 500px;
+        &__details {
+            max-width: 483px;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            padding: 0 30px;
+
+            @media only screen and (min-width: 992px) {
+                padding: 0;
+            }
+
+            h2 {
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 100%;
+                margin-bottom: 30px;
+                letter-spacing: -2px;
+    
+                @media only screen and (min-width: 992px) {
+                    font-size: 50px;
+                }
+                @media only screen and (min-width: 1350px) {
+                    font-size: 70px;
+                    margin-bottom: 60px;
+                    letter-spacing: -5px;
+                }
+            }
+
+            a {
+                display: inline-block;
+                margin-bottom: 50px;
+                display: flex;
+                align-items: center;
+                color: #fff;
+
+                img {
+                    margin-right: 30px;
+                }
+             
+                p {
+                    margin-bottom: 0;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                    line-height: 140%;
+
+                    @media only screen and (min-width: 992px) {
+                        font-size: 24px;
+                    }
+                    @media only screen and (min-width: 1350px) {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__black {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__grey {
+        position: absolute;
+        bottom: 12px;
+        right: 0;
+    }
+}

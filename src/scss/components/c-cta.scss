@@ -1,0 +1,74 @@
+.c-cta {
+    background-size: cover;
+    background-position: top center;
+    padding-top: 111px;
+    padding-bottom: 117px;
+    @media only screen and (min-width: 992px) {
+        background-position: top left;
+        padding-top: 191px;
+        padding-bottom: 178px;
+    }
+    .wrapper {
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: -2px;
+        line-height: 100%;
+        margin-bottom: 46px;
+        padding: 0 15px;
+        @media only screen and (min-width: 992px) {
+            padding: 0;
+            font-size: 70px;
+            letter-spacing: -5px;
+        }
+    }
+
+    &--with_objects {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        background: #FCFCFC;
+        position: relative;
+
+        @media only screen and (min-width: 992px) {
+            padding-top: 179px;
+            padding-bottom: 197px;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 100%;
+            margin-bottom: 46px;
+
+            @media only screen and (min-width: 992px) {
+                font-size: 50px;
+            }
+            @media only screen and (min-width: 1350px) {
+                font-size: 70px;
+            }
+        }
+
+        &__red {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        &__grey-large {
+            position: absolute;
+            bottom: 78px;
+            left: 219px;
+        }
+
+        &__grey-small {
+            position: absolute;
+            bottom: 234px;
+            right: 155px;
+        }
+    }
+}

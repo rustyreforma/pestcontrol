@@ -1,0 +1,28 @@
+@import 'base/bootstrap.scss';
+
+// vendors 
+@import '../../node_modules/aos/dist/aos.css';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap');
+
+// base
+@import 'base/default.scss';
+
+// objects 
+@import 'objects/o-btn.scss';
+
+// components
+@import 'components/header.scss';
+@import 'components/c-banner.scss';
+@import 'components/c-how-it-works.scss';
+@import 'components/c-why-work-with-us.scss';
+@import 'components/c-two-columns.scss';
+@import 'components/c-cta.scss';
+@import 'components/c-carousel.scss';
+@import 'components/c-faq.scss';
+@import 'components/c-form.scss';
+@import 'components/c-how-we-do-it.scss';
+@import 'components/c-reach-us.scss';
+@import 'components/footer.scss';

@@ -1,0 +1,32 @@
+.o-btn {
+    padding: 15px 25px 18px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+
+    display: inline-block;
+    text-decoration: none!important;
+    &:hover {
+        color: #fff;
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding: 20px 35px 25px;
+        font-size: 20px;
+    }
+    @media only screen and (min-width: 1350px) {
+        padding: 28px 41px 31px;
+        font-size: 24px;
+    }
+
+    &--red {
+        @extend .o-btn;
+        background: #E63131;
+        transition: background 0.3s ease;
+        &:hover {
+            background-color: #D22C2C;
+            transition: background 0.3s ease;
+        }
+    }
+}
